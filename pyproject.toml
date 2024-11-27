@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "cheshire"
-version = "0.5.5"
+name = "cheshire-no-bleak-limit"
+version = "0.5.7"
 description = "API for Keepsmile, LuckyStyle, Leeleberd, and related smart lights"
-authors = ["Eugene Wolffe <fluffy1781@gmail.com>"]
+authors = ["David <davidkuc6@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [
@@ -11,7 +11,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
-bleak = "^0.21.1"
+bleak = ">=0.21.1"
 
 
 [build-system]
